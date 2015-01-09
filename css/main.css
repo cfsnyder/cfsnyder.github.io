@@ -15,14 +15,14 @@ body {
   height: 60vh;
   padding-top: 30vh;
   text-align: center;
-  color: white;
+  color: black;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
 
 .main-text-holder {
-  background-color: black;
-  opacity: 0.75;
+  background-color: white;
+  opacity: 0.95;
   margin-left: auto;
   margin-right: auto;
   width: 700px;
