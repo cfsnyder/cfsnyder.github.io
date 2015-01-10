@@ -7,11 +7,11 @@ body {
   height: 60px;
   padding-right: 15px;
   padding-left: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-links {
   float: right;
-  font-weight: bold;
   padding-right: 50px;
 }
 
@@ -36,14 +36,38 @@ body {
   width: 50px;
 }
 
-.social-icon {
+.social-icons {
+  float: right;
+}
+
+.social-icons div {
   height: 30px;
   width: 30px;
-  background-image: url("../img/github.png");
-  background-size: contain;
-  color: white;
-  float: right;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-top: 15px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.github-icon {
+  background-image: url("../img/github.png");
+}
+
+.linkedin-icon {
+  background-image: url("../img/linkedin.png");
+}
+
+.twitter-icon {
+  background-image: url("../img/twitter.png");
+  background-color: black;
+  background-position: center center;
+  background-size: auto 15px !important;
+}
+
+.email-icon {
+  background-image: url("../img/email-icon.png");
 }
 
 .main-image {
