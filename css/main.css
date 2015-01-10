@@ -26,13 +26,18 @@ body {
   line-height: 30px;
 }
 
+.main-links div a {
+  text-decoration: none;
+  color: black;
+}
+
 .logo {
   background-image: url("../img/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 15px;
+  margin-top: 10px;
   float: left;
-  height: 30px;
+  height: 40px;
   width: 50px;
 }
 
