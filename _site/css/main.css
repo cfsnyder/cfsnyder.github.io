@@ -9,6 +9,23 @@ body {
   padding-left: 15px;
 }
 
+.main-links {
+  float: right;
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+.main-links div {
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+
 .logo {
   background-image: url("../img/logo.png");
   background-size: contain;
