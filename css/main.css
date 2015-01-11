@@ -26,13 +26,41 @@ body {
   line-height: 30px;
 }
 
+.blog-post {
+  margin-top: 75px;
+  font-family: 'Montserrat', sans-serif;
+  width: 50%;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+.blog-content {
+  margin-bottom: 100px;
+  line-height: 1.5;
+  font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  font-size: 22px;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blog-post h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.blog-post h2 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
 .main-links div a {
   text-decoration: none;
   color: black;
 }
 
 .logo {
-  background-image: url("../img/logo.png");
+  background-image: url("/img/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 10px;
@@ -57,26 +85,26 @@ body {
 }
 
 .github-icon {
-  background-image: url("../img/github.png");
+  background-image: url("/img/github.png");
 }
 
 .linkedin-icon {
-  background-image: url("../img/linkedin.png");
+  background-image: url("/img/linkedin.png");
 }
 
 .twitter-icon {
-  background-image: url("../img/twitter.png");
+  background-image: url("/img/twitter.png");
   background-color: black;
   background-position: center center;
   background-size: auto 15px !important;
 }
 
 .email-icon {
-  background-image: url("../img/email-icon.png");
+  background-image: url("/img/email-icon.png");
 }
 
 .main-image {
-  background-image: url("../img/main3.jpg");
+  background-image: url("/img/main3.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -90,7 +118,7 @@ body {
 }
 
 .blog-image {
-  background-image: url("../img/blog.jpg");
+  background-image: url("/img/blog.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -99,7 +127,7 @@ body {
 }
 
 .about-image {
-  background-image: url("../img/about.jpg");
+  background-image: url("/img/about.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
